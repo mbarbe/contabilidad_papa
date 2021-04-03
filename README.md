@@ -25,3 +25,4 @@ El software de contabilidad requiere de DOSBox para poder operar dentro de una a
   - Editar archivo de configuración corriendo `C:\Program Files (x86)\DOSBox SVN-Daum\TOOLS\Run DOSBox configuration.bat`
     - En la sección `[parallel]` cambiar `parallel1=disable` a `parallel1=printer`
     - En la sección `[printer]` cambiar `printoutput=png` a `printoutput=printer`
+  - Referencia: https://superuser.com/questions/270457/how-can-i-print-with-dosbox
