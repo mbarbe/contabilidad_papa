@@ -19,3 +19,4 @@ El software de contabilidad requiere de DOSBox para poder operar dentro de una a
     - Fijar que `ProtectionMode` se encuentre en `0`. El valor por defecto es `1`.
   - En CMD correr el comando  `net use lpt1 /d`
   - Si funciona, correr `net use lpt1: \\papa-PC\EPSONLX /persistent:yes` 
+  - NOTA: Se dejan archivos .bat que permiten removar la cola de impresión y luego setear la impresora en el puerto lpt1.
