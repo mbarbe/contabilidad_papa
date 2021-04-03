@@ -20,3 +20,8 @@ El software de contabilidad requiere de DOSBox para poder operar dentro de una a
   - En CMD correr el comando  `net use lpt1 /d`
   - Si funciona, correr `net use lpt1: \\papa-PC\EPSONLX /persistent:yes` 
   - NOTA: Se dejan archivos .bat que permiten removar la cola de impresión y luego setear la impresora en el puerto lpt1.
+### 4- Instalar DOSBOX versión Daum
+  - Descargar `setup_win.exe` e instalar DOS BOX.
+  - Editar archivo de configuración corriendo `C:\Program Files (x86)\DOSBox SVN-Daum\TOOLS\Run DOSBox configuration.bat`
+    - En la sección `[parallel]` cambiar `parallel1=disable` a `parallel1=printer`
+    - En la sección `[printer]` cambiar `printoutput=png` a `printoutput=printer`
